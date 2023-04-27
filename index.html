@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albertsons</title>
+    <meta name="description" content="Albertsons Food and Drug">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header id="headerDark">
+        <img src="Images/Albertsons-logo.png" alt="Albertsons Logo" id="logo">
+        <nav>
+            <section id="mainNav">
+                <h2>Main Navigation</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Inventory</a></li>
+                </ul>
+            </section>
+
+            <section id="icons">
+                <h2>Icons</h2>
+                <button type="button" onclick="alert('Thanks for signing in')">Sign in</button>
+                <!--Light and DarkMode-->
+                <a href="#" id="dark-mode-link">
+                    <svg fill="#00529F" width="45px" height="45px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                      <title>contrast</title>
+                      <path d="M0 16q0 3.264 1.28 6.24t3.392 5.088 5.12 3.424 6.208 1.248q3.264 0 6.24-1.248t5.088-3.424 3.392-5.088 1.28-6.24-1.28-6.208-3.392-5.12-5.088-3.392-6.24-1.28q-3.264 0-6.208 1.28t-5.12 3.392-3.392 5.12-1.28 6.208zM4 16q0-3.264 1.6-6.016t4.384-4.352 6.016-1.632 6.016 1.632 4.384 4.352 1.6 6.016-1.6 6.048-4.384 4.352-6.016 1.6-6.016-1.6-4.384-4.352-1.6-6.048zM16 26.016q2.72 0 5.024-1.344t3.648-3.648 1.344-5.024-1.344-4.992-3.648-3.648-5.024-1.344v20z"></path>
+                    </svg>
+                  </a>
+
+                <!--Cart SVG-->
+                <svg width="45px" height="45px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="icon" fill="#00529F" transform="translate(42.666667, 85.333333)">
+                            <path d="M7.10542736e-15,-1.42108547e-14 L70.3622093,-1.42108547e-14 L89.7493333,85.3333333 L378.389061,85.3333333 L337.246204,277.333333 L89.6377907,277.333333 L36.288,42.6666667 L7.10542736e-15,42.6666667 L7.10542736e-15,-1.42108547e-14 Z M138.666667,384 C156.339779,384 170.666667,369.673112 170.666667,352 C170.666667,334.326888 156.339779,320 138.666667,320 C120.993555,320 106.666667,334.326888 106.666667,352 C106.666667,369.673112 120.993555,384 138.666667,384 Z M288,384 C305.673112,384 320,369.673112 320,352 C320,334.326888 305.673112,320 288,320 C270.326888,320 256,334.326888 256,352 C256,369.673112 270.326888,384 288,384 Z" id="Combined-Shape">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </section>
+        </nav>
+    </header>
+    <main id="darkMain">
+        <section id="welcome">
+            <img src="Images/AlbertsonsPicture.png" alt="Picture of Albertsons outside" id="albertsonPicture">
+            <article Id="darkModeWelcome">
+                <h1>Welcome To Albertsons</h1>
+                <p>Albertsons is a chain of grocery stores that operates in the United States. It was founded in 1939 by Joe Albertson and is headquartered in Boise, Idaho. The company operates over 2,200 stores across 33 states under various brands including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Tom Thumb, Randalls, United Supermarkets, Pavilions, Star Market, Haggen, and Carrs.</p>
+                <p>We offers a wide range of products, including groceries, fresh produce, meat and seafood, dairy products, bakery items, deli products, household goods, health and beauty items, and more.</p>
+                <p>Over the years, Albertsons has grown through acquisitions of other grocery store chains and has become one of the largest food and drug retailers in the United States.</p>
+            </article>
+        </section>
+        <section id="deals">
+            <h2>Quick Cart</h2>
+            <section id="stock">
+                <h3>New in Stock</h3>
+                <figure id="item1">
+                    <img src="Images/groundTurkey.webp" alt="Jennie-O 93% Lean Ground Turkey Fresh - 16 Oz" class="produceImg">
+                    <h4>Lean ground Turkey</h4>
+                    <figcaption>
+                        <p>Fresh all-natural (Minimally processed) (No artificial ingredients).</p>
+                        <div>
+                            <p>$5.99</p>
+                            <button type="button" id="addOne">Add To Cart</button>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure id="item2">
+                    <img src="Images/grapes.webp" alt="NatureSweet Cherub Salad Tomatoes Heavenly - 10 Oz" class="produceImg">
+                    <h4>Tomatoes</h4>
+                    <figcaption>
+                        <p>Salad Tomatoes, Heavenly</p>
+                        <div>
+                            <p>$2.50</p>
+                            <button type="button" id="addTwo">Add To Cart</button>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure id="item3">
+                    <img src="Images/friedChicken.webp" alt="
+                    Deli Fried Chicken Dark 8 Piece Hot " class="produceImg">
+                    <h4>Fried Chicken</h4>
+                    <figcaption>
+                        <p>Freshly fried, delicious</p>
+                        <div>
+                            <p>$7.99</p>
+                            <button type="button" id="addThree">Add To Cart</button>
+                        </div>
+                    </figcaption>
+                </figure>
+                <div id="arrows">
+                    <svg width="45px" height="45px" viewBox="-4.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#00529F" transform="matrix(-1, 0, 0, 1, 0, 0)" id="prevBtn">
+
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                        
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                        
+                        <g id="SVGRepo_iconCarrier"> <title>arrow_right [#336]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-305.000000, -6679.000000)" fill="#00529F"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M249.365851,6538.70769 L249.365851,6538.70769 C249.770764,6539.09744 250.426289,6539.09744 250.830166,6538.70769 L259.393407,6530.44413 C260.202198,6529.66364 260.202198,6528.39747 259.393407,6527.61699 L250.768031,6519.29246 C250.367261,6518.90671 249.720021,6518.90172 249.314072,6519.28247 L249.314072,6519.28247 C248.899839,6519.67121 248.894661,6520.31179 249.302681,6520.70653 L257.196934,6528.32352 C257.601847,6528.71426 257.601847,6529.34685 257.196934,6529.73759 L249.365851,6537.29462 C248.960938,6537.68437 248.960938,6538.31795 249.365851,6538.70769" id="arrow_right-[#336]"> </path> </g> </g> </g> </g>
+                    </svg>
+
+                    <p id="itemPage">1</p>
+                        
+                    <svg width="45px" height="45px" viewBox="-4.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nextBtn">
+    
+                            <title>arrow_right [#336]</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs>
+                        
+                        </defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Dribbble-Light-Preview" transform="translate(-305.000000, -6679.000000)" fill="#00529F">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                        <path d="M249.365851,6538.70769 L249.365851,6538.70769 C249.770764,6539.09744 250.426289,6539.09744 250.830166,6538.70769 L259.393407,6530.44413 C260.202198,6529.66364 260.202198,6528.39747 259.393407,6527.61699 L250.768031,6519.29246 C250.367261,6518.90671 249.720021,6518.90172 249.314072,6519.28247 L249.314072,6519.28247 C248.899839,6519.67121 248.894661,6520.31179 249.302681,6520.70653 L257.196934,6528.32352 C257.601847,6528.71426 257.601847,6529.34685 257.196934,6529.73759 L249.365851,6537.29462 C248.960938,6537.68437 248.960938,6538.31795 249.365851,6538.70769" id="arrow_right-[#336]">
+                        
+                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                    </svg>
+                </div>
+            </section>
+            <section id="checkout">
+                <h3>Your Cart</h3>
+                <section id="cartItems">
+                    <h4>Cart Items</h4>
+                    <div id="cartOne">
+                        <p><em>Lean Ground Turkey:</em></p>
+                        <p id="totalOne">0</p>
+                    </div>
+                    <div id="cartTwo">
+                        <p><em>Tomatoes</em></p>
+                        <p id="totalTwo">0</p>
+                    </div>
+                    <div id="cartThree">
+                        <p><em>Fried Chicken</em></p>
+                        <p id="totalThree">0</p>
+                    </div>
+                    <div id="totalCart">
+                        <p>Tax: <span id="tax"></span></p>
+                        <p>Total: <span id="total"></span></p>
+                    </div>
+                </section>
+                <strong id="checkOutBtn">Check out</strong>
+            </section>
+        </section>
+
+        <!--- Start of Form-->
+		<form id="myForm">
+            <h2>Stay Connected With Us</h2>
+			<label for="myName">Full Name<span class="required">*</span></label>
+			<input type="text" id="myName" autocomplete="name" placeholder="First and Last Name">
+
+			<label for="myEmail">Email Address<span class="required">*</span></label>
+			<input type="email" id="myEmail" autocomplete="email" placeholder="address@emailprovider.com">
+
+			<label for="myPhone">Phone Number<span class="required">*</span></label>
+			<input type="tel" id="myPhone" autocomplete="tel" placeholder="999-999-9999">
+
+			<fieldset>
+				<legend>Preferred Contact Method<span class="required">*</span></legend>
+
+				<input type="radio" name="contactPref" id="prefPhone">
+				<label for="prefPhone">Phone</label>
+
+				<input type="radio" name="contactPref" id="prefEmail">
+				<label for="prefPhone">Email</label>
+			</fieldset>
+			<label for="myMessage">Message<span class="required">*</span></label>
+			<textarea name="myMessage" id="myMessage"></textarea>
+            <div id="formErrors"></div> 
+			<input type="submit" id="submit">
+		</form>
+         <!--End of Form-->
+    </main>
+    <footer id="footerDark">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Inventory</a></li>
+        </ul>
+        <p><small>Albertsons - &copy;2023</small></p>
+    </footer>
+</body>
+</html>
